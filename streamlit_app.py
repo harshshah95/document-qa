@@ -6,6 +6,10 @@ from langchain_groq.chat_models import ChatGroq
 from pandasai.responses.response_parser import ResponseParser
 import io
 import matplotlib.pyplot as plt
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Initialize the language model
 llm = ChatGroq(model_name="llama3-70b-8192", api_key=os.environ["GROQ_API_KEY"])

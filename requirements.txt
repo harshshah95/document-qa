@@ -1,2 +1,4 @@
-streamlit
-openai
+pandasai
+langchain-groq  
+streamlit 
+pandas==2.2.3 
